@@ -248,25 +248,22 @@ var LinkedinUrl = () => {
 
 // Onclick Url's For The Link {Projects}
 
-// var SOSTechSevices = () =>{
-//   window.open("https://sostechservices.in")
-// }
 
-// var News = () =>{
-//   window.open("https://news.codeinblogs.co/")
-// }
-// var Coaching = () =>{
-//   window.open("https://Sumitguptaclasses.com")
-// }
+var algotrading = () =>{
+  window.open("https://news.codeinblogs.co/")
+}
+var research_ml = () =>{
+  window.open("https://github.com/dudegladiator/Self-Evaluation-of-Academic-Performance")
+}
 
-// var LawProGPT = () => {
-//   window.open("https://lawprogpt.com")
-// }
+var parser = () => {
+  window.open("https://github.com/dudegladiator/ResumeParser")
+}
 
-// var DSCLang = () =>{
-//   window.open("https://dsclang.com")
+var azadhall = () =>{
+  window.open("http://azadian.org/")
 
-// }
+}
 
 // var CodeINBlogs = () =>{
 //   window.open("https://codeinblogs.co")
