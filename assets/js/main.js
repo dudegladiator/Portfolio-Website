@@ -249,8 +249,8 @@ var LinkedinUrl = () => {
 // Onclick Url's For The Link {Projects}
 
 
-var algotrading = () =>{
-  window.open("https://news.codeinblogs.co/")
+var weather = () =>{
+  window.open("https://dudegladiator.github.io/Liveweather.github.io/")
 }
 var research_ml = () =>{
   window.open("https://github.com/dudegladiator/Self-Evaluation-of-Academic-Performance")
