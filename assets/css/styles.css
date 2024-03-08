@@ -479,57 +479,6 @@ body.light-theme {
   margin-bottom: 2rem;
 }
 
-/*=============== SKILLS ===============*/
-/* ... other CSS styles ... */
-
-.skills__content {
-  background-color: var(--container-color);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  width: 500px;
-}
-
-
-.skills__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  color: var(--first-color);
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.skills__box {
-  display: flex;
-  justify-content: center;
-  column-gap: 2.5rem;
-}
-
-.skills__group {
-  display: grid;
-  align-content: flex-start;
-  row-gap: 1rem;
-}
-
-.skills__data {
-  display: flex;
-  column-gap: 0.5rem;
-}
-
-.skills .bxs-badge-check {
-  font-size: 1rem;
-  color: var(--first-color);
-}
-
-.skills__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  line-height: 18px;
-  
-}
-
-.skills__level {
-  font-size: var(--small-font-size);
-}
 
 /*=============== SERVICES ===============*/
 .services__container {
@@ -702,6 +651,7 @@ body.light-theme {
   background-color: var(--first-color);
   color: var(--body-color);
 }
+
 
 /*=============== TESTIMONIAL ===============*/
 .testimonial__card {
@@ -1347,3 +1297,76 @@ body.light-theme {
     border-color: rgba(var(--k-color), 1);
     transition: all 0.4s ease;
 }
+
+/*=============== SKILLS ===============*/
+
+/* For desktop */
+@media screen and (min-width: 768px) {
+  .skills__content {
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+
+  .skills__box {
+    gap: 2.5rem; /* Adjust spacing between columns for desktop */
+  }
+}
+
+/* For mobile */
+@media screen and (max-width: 767px) {
+  .skills__content {
+    max-width: 100%; /* Set maximum width to fill the screen */
+    width: calc(100% - 3rem); /* Adjust width to avoid horizontal scrolling */
+    margin: 0 auto 1.5rem; /* Center the content horizontally and add bottom margin */
+  }
+
+  .skills__box {
+    gap: 1.5rem; /* Adjust spacing between columns for mobile */
+  }
+}
+
+.skills__content {
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.skills__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap onto multiple lines */
+  justify-content: center;
+}
+
+.skills__group {
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center; /* Align items vertically */
+}
+
+.skills .bxs-badge-check {
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 1.4; /* Adjust line height for better readability */
+}
+
+

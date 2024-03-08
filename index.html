@@ -18,7 +18,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
     <!-- Page Title and Meta Description -->
-    <title>Harsh Gupta - Software & Machine Learning</title>
+    <title>Harsh Gupta - Portfolio</title>
     <meta name="keywords" content="Harsh Gupta, backend developer, software engineer, machine learning engineer, algorithm design, Python, JavaScript, innovation, problem solving, portfolio, tech blog, finance, fintech, algorithmic trading"> 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://harshiitkgp.in">
@@ -29,6 +29,9 @@
     <meta property="twitter:domain" content="harshiitkgp.in">
     <meta property="twitter:url" content="https://harshiitkgp.in">
     <meta name="twitter:title" content="Harsh's Portfolio Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <!-- Schema.org Markup -->
     <script type="application/ld+json">
     {
@@ -54,7 +57,7 @@
     <header class="header" id="header">
         <img src="assets/img/About.webp" alt="Harsh Gupta" style="display: none" >
     <nav class="nav container">
-            <a href="#" class="nav__logo">Portfolio Website</a>
+            <a href="#" class="nav__logo">Harsh Portfolio</a>
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item ">
@@ -104,8 +107,8 @@
                     <h1 class="home__name">Harsh Gupta</h1>
                     <h2 class="home__education">Software and Machine Learning Engineer</h2>
                     <div class="home__button">
-                        <a href="#contact" class="button button--ghost">
-                            Work with Me </a>
+                        <a href="https://github.com/dudegladiator/dudegladiator/raw/main/Harsh_Gupta_Resume.pdf" class="button button--ghost">
+                            Resume </a>
 
                         <a href="#about" class="button">About</a>
                     </div>
@@ -172,7 +175,7 @@
                     </p>
 
                     <a href="#contact" class="button about__button-contact">Contact Me</a>
-                    <a href="https://github.com/dudegladiator" class="button button--ghost">
+                    <a href="https://github.com/dudegladiator" target="_blank" class="button button--ghost">
                         Github </a>
                 </div>
             </div>
@@ -253,33 +256,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Experience 3 -->
-
-                <!-- <div class="skills__content">
-                    <h3 class="skills__title">Machine Learning Engineer, Practworks</h3>
-        
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-                                <div>
-                                    <h3 class="skills__name">Developed and implemented machine learning models for [project/task].</h3>
-                                    <span class="skills__level">Used Python, TensorFlow, and scikit-learn.</span>
-                                </div>
-                            </div>
-        
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-                                <div>
-                                    <h3 class="skills__name">Optimized model performance and accuracy through [techniques].</h3>
-                                    <span class="skills__level">Achieved [specific results/improvements].</span>
-                                </div>
-                            </div>
-        
-                        </div>
-                    </div>
-                </div> -->
         
             </div>
         </section>
@@ -393,6 +369,31 @@
 
             <div class="work__container container grid">
 
+                <div class="work__card mix web">
+                    <img src="assets/img/Project-2.webp" alt="Weather Website" class="work__img">
+                
+                    <div class="work__content">
+                        <h3 class="work__title">Azad Hall Website</h3>
+                
+                        <a onclick="azadhall()" class="work__button">
+                            Demo<i class='bx bx-right-arrow work__icon'></i>
+                        </a>
+                    </div>
+                </div>
+
+                
+
+                <div class="work__card mix ML">
+                    <img src="assets/img/Project -1.webp" alt="Research Project" class="work__img">
+
+                    <h3 class="work__title">Self Evaluation of <br> Academic Performance</h3>
+
+                    <a onclick="research_ml()" class="work__button">
+                        Repository <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+
                 <div class="work__card mix ML">
                     <img src="assets/img/Project -3.webp" alt="Resume Parser" class="work__img">
 
@@ -403,36 +404,20 @@
                     </a>
                 </div>
 
-                <div class="work__card mix ML">
-                    <img src="assets/img/Project -1 .webp" alt="Research Project" class="work__img">
-
-                    <h3 class="work__title">Self Evaluation of <br> Academic Performance</h3>
-
-                    <a onclick="research_ml()" class="work__button">
-                        Repository <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix web">
-                    <img src="assets/img/Project -2.webp" alt="Azad Hall Website" class="work__img">
-
-                    <h3 class="work__title">Azad Hall Website</h3>
-
-                    <a onclick="azadhall()" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                </div>
-
                 
-
                 <div class="work__card mix web">
                     <img src="assets/img/Project-6.webp" alt="Weather Website" class="work__img">
-
-                    <h3 class="work__title">Weather Website</h3>
-
-                    <a onclick="weather()" class="work__button">
-                        Repository<i class='bx bx-right-arrow work__icon'></i>
-                    </a>
+                
+                    <div class="work__content">
+                        <h3 class="work__title">Weather Website</h3>
+                
+                        <a onclick="weather()" class="work__button">
+                            Demo<i class='bx bx-right-arrow work__icon'></i>
+                        </a>
+                    </div>
                 </div>
+                
+                
 
                 
 
@@ -531,10 +516,10 @@
                     <a href="#about" class="footer__link">About</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#skills" class="footer__link">Skills</a>
+                    <a href="#skills" class="footer__link">Experience</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#work" class="footer__link">Work</a>
+                    <a href="#work" class="footer__link">Projects</a>
                 </li>
                 <li class="footer__item">
                     <a href="#contact" class="footer__link">Contact</a>
