@@ -238,7 +238,7 @@ var GitHubUrl = () => {
   window.open("https://Github.com/dudegladiator")
 }
 var InstagramUrl = () => {
-  window.open("https://instagram.com/harsh90731")
+  window.open("https://instagram.com/harsh_90731")
 
 }
 var LinkedinUrl = () => {
