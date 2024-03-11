@@ -1260,7 +1260,7 @@ body.light-theme {
     display: block;
     width: 15px;
     height: 15px;
-    background: #a395e9;
+    background: #a166e0;
     border-radius: 50%;
     transition: all 0.2s ease, top 0.03s ease-out, left 0.03s ease-out;
 }
