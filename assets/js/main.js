@@ -256,12 +256,20 @@ var research_ml = () =>{
   window.open("https://github.com/dudegladiator/Self-Evaluation-of-Academic-Performance")
 }
 
+var inventory_manager = () =>{
+  window.open("https://github.com/dudegladiator/AI-Inventory-Manager")
+}
+
+var logistic_optimization = () =>{
+  window.open("https://github.com/dudegladiator/Logistic-optimization-for-industrial-expansion")
+}
+
 var parser = () => {
   window.open("https://github.com/dudegladiator/ResumeParser")
 }
 
 var azadhall = () =>{
-  window.open("http://azadian.org/")
+  window.open("https://github.com/dudegladiator/Azad-Hall-Website")
 
 }
 
